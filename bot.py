@@ -60,8 +60,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "👋 Welcome to ZENX IP BOT",
         reply_markup=InlineKeyboardMarkup(keyboard),
-    )  
- PROXIES = {
+    )
+    
+PROXIES = {
     "owl": ("🦉 Owl IP", "৳9/IP"),
     "abc": ("🔵 ABC IP", "৳255/IP"),
     "rocket": ("🚀 Rocket IP", "৳160/IP"),
